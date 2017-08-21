@@ -1,0 +1,181 @@
+
+    .navbar {
+        background: #ff5b5b;
+    }
+    .partners {
+        padding: 40px 40px;
+    }
+
+    .partners img {
+        max-width: 150px;
+    }
+
+    .perk-img {
+        background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-image: url(../slideshow/eat.jpg);
+    width: 100%;
+    height: 300px;
+    color: black;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: white;
+    }
+    .navbar-default .navbar-toggle {
+        border-radius: 0;
+        border: 2px solid #fff;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #ffb4b4;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        font-weight: 600;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .btn-lg {
+        background-color: #a5a1ff;
+        border-color: #a5a1ff;
+        border-radius: 32px;
+        padding: 10px 32px;
+
+    }
+
+    .btn-lg:hover {
+
+        background-color: #6e68ff;
+        border-color: #6e68ff;
+
+    }
+
+    .form-background {
+        background: #ffd74b;
+        margin-bottom: 0;
+        line-height: 0;
+        color: white;
+    }
+
+      .form-background input {
+        border-radius: 0;
+        color: #6e68ff;
+      }
+
+    .partners {
+        background: black;
+    }
+
+
+
+    form {
+        /*
+                display: table-cell;
+                vertical-align: middle;*/
+        line-height: 1.4;
+        margin-top: 50px;
+    }
+
+    .form-section {
+        margin-bottom: 80px;
+        /* display: table;*/
+    }
+
+    .carousel {
+        height: 480px;
+    }
+
+    iframe {
+        background: #999;
+        line-height: 0;
+    }
+
+    #footer {
+        margin: 20px 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .navbar {
+        font-family: 'Raleway';
+        font-weight: 800;
+    }
+
+    h3 {
+
+        color: #00ce2c;
+    }
+
+    body {
+        font-family: 'Roboto';
+        background: url('../memphis-colorful.png');
+    }
+
+    .perks .col-md-6 {
+        padding: 0;
+    }
+
+    .perk-caption {
+        margin-top: 10%;
+    }
+
+    .form-section p,
+    .perks p {
+        font-size: 18px;
+    }
+
+    .perks {
+        color:white;
+        background: #a5a1ff;
+        margin-bottom: 0;
+
+    }
+    .perks .col-sm-6 {
+        padding: 0;
+
+    }
+    .perks img,
+    h1 img {
+        width: 100%;
+    }
+
+    h1 img {
+        width: 100%;
+    }
+    .maps .col-md-12 {
+        line-height: 0;
+    }
+
+     .maps {
+        margin-bottom: 0;
+    }
+    .media {
+        margin-top: 0;
+    }
+
+    .perks .caption {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    @media all and (max-width: 640px) {
+        .perk-caption {
+            margin: 20px;
+        }
+    }
