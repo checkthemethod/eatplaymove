@@ -1,6 +1,7 @@
 
     .navbar {
         background: #ff5b5b;
+        border-radius: 0;
     }
     .partners {
         padding: 40px 40px;

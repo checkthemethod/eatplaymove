@@ -21,6 +21,9 @@
 
 <body>
 
+    
+
+    
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -53,7 +56,8 @@
 
 
 
-
+<div class="container">
+    
 
 
 
@@ -65,9 +69,11 @@
         </div>
     </div>
     <div class="row" id="welcome-section">
+    <div class="col-md-12">
         <h3 class="text-center">
-            Eat Play Move is a celebration of<br/>Filipino-Angeleno culture in Los Angeles
+            Eat Play Move is a celebration of<br class="hidden-xs" />Filipino-Angeleno culture in Los Angeles
         </h3>
+        </div>
     </div>
     <div class="row" >
         <div class="col-sm-offset-1 col-sm-10">
@@ -199,51 +205,16 @@
             </div>
         </div>
     </div>
+
+    
+</div>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="Hello World"></script>
-    <script>
-    $(document).ready(function() {
-        //$('.carousel').carousel()
 
-        function scrollToAnchor(aid){
-    var aTag = $(aid );
-        $('html,body').animate({scrollTop: aTag.offset().top},'fast');
-    }
-
-    $(".navbar-nav li a").click(function(e) {
-        e.preventDefault();
-       scrollToAnchor($(this).attr('href'));
-    });
-
-    $('form').on('submit', function(e) {
-        e.preventDefault();
-        $(this).find('input, textarea').val('');
-            var data = {
-            name: $("input[name='full_name']").val(),
-            email: $("input[name='email']").val(),
-            message: $("textarea[name='message']").val()
-            };
-            $.ajax({
-                type: "POST",
-                url: "send_form_email.php",
-                data: data,
-                success: function(){
-                    $('.success').fadeIn(1000);
-                }
-            });
-
-
-    });
-
-
-
-
-    });
-    </script>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>
